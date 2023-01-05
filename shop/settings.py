@@ -28,7 +28,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-953&dpey30+@3_5bdy%^(ife4vz^sl@d_g7#6_n8og67hd%4&4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False
+
+DEBUG = True
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -135,7 +138,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # I add this new line within the base folder /home/ubuntu
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 
