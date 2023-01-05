@@ -135,7 +135,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # I add this new line within the base folder /home/ubuntu
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 
 
